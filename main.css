@@ -70,6 +70,10 @@
     text-align: center;
 }
 
+.selected-boxes {
+    background-color: #ff69b4;
+}
+
 /************ Media Queries *************/
 @media(min-width:320px) {
  .boxes-section {
