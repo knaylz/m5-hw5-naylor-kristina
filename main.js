@@ -49,8 +49,20 @@ var boxTwo = document.querySelector('.box-2');
 function messageTwo () {
     document.querySelector('.main-p').appendChild(newElementTwo);
 }
- boxTwo.addEventListener('click', messageTwo);
+ 
+boxTwo.addEventListener('click', messageTwo);
 
+//Show message when box 3 is clicked
 
+newElementThree = document.createElement('p');
+elementTextThree = document.createTextNode('Oops, better luck next time');
+newElementThree.appendChild(elementTextThree);
+var boxThree = document.querySelector('.box-3');
+
+function messageThree () {
+    document.querySelector('.main-p').appendChild(newElementThree);
+}
+
+boxThree.addEventListener('click', messageThree);    
 
 
