@@ -74,6 +74,23 @@
     background-color: #ff69b4;
 }
 
+/* Hidden Button */
+
+.start-over-section {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.hidden-button {
+    padding: 2% 6%;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 5% auto;
+    text-decoration: none;
+}
+
+
 /************ Media Queries *************/
 @media(min-width:320px) {
  .boxes-section {
