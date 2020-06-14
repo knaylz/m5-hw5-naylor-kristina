@@ -82,7 +82,7 @@
 }
 
 .hidden-button {
-    padding: 2% 6%;
+    padding: 2%;
     background-color: #ff0000;
     color: #fff;
     border-radius: 3px;
@@ -90,6 +90,13 @@
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
 
 /************ Media Queries *************/
 @media(min-width:320px) {

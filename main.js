@@ -65,4 +65,16 @@ function messageThree () {
 
 boxThree.addEventListener('click', messageThree);    
 
+//Show start over button when any box is clicked
+
+var hiddenButton = document.getElementsByTagName('a');
+
+
+function toggleButton() {
+   hiddenButton[0].classList.add('show');
+}
+
+for (i = 0; i < boxes.length; i++) {
+    boxes[i].addEventListener('click', toggleButton);
+}
 
